@@ -1,0 +1,26 @@
+#include <stdio.h>
+#include <stdlib.h>
+void Prime(int n)
+{
+  if(n<=1)return ;
+   int i=2;
+   for(i;i <= n/2;++i)
+   {
+      if(/%i == 0)
+      {
+        printf("false: %d\n",n);
+        return ;
+      }
+   }
+   printf("true:%d\n",n);
+   return ;
+}
+int main()
+{
+  int n;
+  for(int i=2;i<=n;++i)
+  {
+    Prime(i);
+   }
+  return 0;
+}
